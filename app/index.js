@@ -21,8 +21,8 @@ const Home = () => {
             <ScrollView showsVerticalScrollIndicator = {false}>
                 <View style={{padding : SIZES.medium, flex : 1}}>
                    <Welcome style={{}} router={router}/>
-                   <Nearbyjobs/>
                    <Popularjobs/>
+                   <Nearbyjobs/>
                 </View> 
             </ScrollView>
         </SafeAreaView>
